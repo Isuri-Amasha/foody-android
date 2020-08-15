@@ -55,4 +55,16 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    
+    //IT19176734 Dewapura B.N
+    <string name="orderHead">Order List</string>
+    <string name="orderNo">Order:Order No.</string>
+    <string name="orderDetails">Order Details</string>
+    <string name="menuItem1">View Order</string>
+    <string name="menuItem2">Update Order</string>
+    <string name="menuItem3">Delete Order</string>
+
+    <string name="onTheWay">On the Way</string>
+    <string name="placed">Order Placed</string>
+    <string name="delivered">Delivered</string>
 </resources>
