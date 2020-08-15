@@ -3,44 +3,19 @@
     <string name="phone">Phone Number</string>
     <string name="password">Password</string>
     <string name="userName">User Name</string>
-    <string name="login">Log In</string>
-    <string name="signup">Sign Up</string>
-    <string name="user_name">Isuri Amasha</string>
-    <string name="user_phone">0770817059</string>
+    <string name = "login">Log In</string>
+    <string name = "signup">Sign Up</string>
+    <string name = "user_name">Isuri Amasha</string>
+    <string name = "user_phone">0770817059</string>
     <string name="main_course">Main Course</string>
     <string name="vegi">Vegitable Curry</string>
     <string name="non_vegi">Non-Vegitarian Curry</string>
     <string name="dessert">Dessert</string>
-    <string name="beverage">Beverage</string>
-    <string name="appetizer">Appetizer</string>
-    <string name="chicken_fried_rice">Chicken Fried Rice</string>
-    <string name="price">Rs.1000</string>
-    <string name="mixed">Mixed Rice</string>
-    <string name="vegi_rice">Vegitable Rice</string>
-    <string name="sea_rice">Sea Food Rice</string>
-    <string name="noodles">Noodles</string>
-    <string name="biriyani">Biriyani</string>
-    <string name="food_list">Food List</string>
-    <string name="add_cart">Add to Cart</string>
-    <string name="food_item">Food Item</string>
-    <string name="order">Place Order</string>
-    <string name="cart">Cart Details</string>
-    <string name="cart_portion">2 portions</string>
-    <string name="chicken_price">Rs.2000</string>
-    <string name="caramel">Caramel Pudding</string>
-    <string name="caramel_price">Rs.850</string>
-    <string name="orange">Orange Juice</string>
-    <string name="juice_price">Rs.1500</string>
-    <string name="total">Total Price - Rs.3350.00</string>
-    <string name="portion">One Portion - </string>
-    <string name="num_portion">Number of portions </string>
-    <string name="por_hint">1</string>
-    <string name="item_des">Delicious and tasty Chicken fried rice made by using high quality and fresh products. Highly safe and secure to dine.</string>
-    <string name="order_history">Order History</string>
-    <string name="order_id">Order ID - F45600876</string>
-    <string name="order_status">Order Status - Placed</string>
-    <string name="client_num">Contact Number - 0770817059</string>
-    <string name="address">Address - SLIIT, Malabe</string>
+    <string name = "beverage">Beverage</string>
+    <string name = "appetizer">Appetizer</string>
+
+
+
 
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
