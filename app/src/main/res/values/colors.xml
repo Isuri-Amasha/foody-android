@@ -6,6 +6,7 @@
 
     <color name = "btnSignUp">#E1A7B0</color>
     <color name = "btnLogIn">#EA5E63</color>
+    <color name = "body">#F1E9E9</color>
 
     <color name = "overlayBackground">#7F333639</color>
     <color name = "overlayActionBar">#0e0d0e</color>

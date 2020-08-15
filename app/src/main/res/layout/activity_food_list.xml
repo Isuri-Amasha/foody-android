@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".foodList">
+
 
 
     <LinearLayout
@@ -12,12 +13,39 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/btnSignUp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_toolbar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/food_list"
+                android:textColor="@android:color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
-            android:background="#F1E9E9"
+            android:background="@color/body"
             android:columnCount="2"
             android:columnOrderPreserved="false"
             android:rowCount="3">
@@ -47,15 +75,26 @@
                         android:layout_width="120dp"
                         android:layout_height="150dp"
                         android:clickable="true"
-                        android:src="@drawable/main" />
+                        android:src="@drawable/fried_rice" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="@string/main_course"
+                        android:text="@string/chicken_fried_rice"
                         android:textColor="@android:color/black"
                         android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
 
 
                 </LinearLayout>
@@ -74,24 +113,37 @@
                 app:cardElevation="6dp">
 
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="10dp">
+                    android:padding="2dp">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/vegi" />
+                        android:clickable="true"
+                        android:src="@drawable/biriyani" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="@string/vegi"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/biriyani"
                         android:textColor="@android:color/black"
                         android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
 
 
                 </LinearLayout>
@@ -119,15 +171,26 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/non_vegi_1" />
+                        android:src="@drawable/mixed_rice" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="@string/non_vegi"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/mixed"
                         android:textColor="@android:color/black"
-                        android:textSize="16dp" />
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
 
 
                 </LinearLayout>
@@ -155,51 +218,26 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/dessert" />
+                        android:src="@drawable/vegi_rice" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="@string/dessert"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/vegi_rice"
                         android:textColor="@android:color/black"
                         android:textSize="18dp" />
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:layout_marginTop="30dp"
-                android:outlineSpotShadowColor="@android:color/black"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="6dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="2dp">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="150dp"
-                        android:src="@drawable/beverage" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="@string/beverage"
-                        android:textColor="@android:color/black"
-                        android:textSize="18dp" />
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
 
 
                 </LinearLayout>
@@ -227,28 +265,89 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/appetizer" />
+                        android:src="@drawable/sea_food" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="@string/appetizer"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/sea_rice"
                         android:textColor="@android:color/black"
                         android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
 
 
                 </LinearLayout>
 
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="30dp"
+                android:outlineSpotShadowColor="@android:color/black"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/noodles" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/noodles"
+                        android:textColor="@android:color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/price"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="14dp"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="3dp"/>
+
+
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+
+
+
+
+
 
 
         </GridLayout>
 
 
     </LinearLayout>
-
-
 
 </ScrollView>
