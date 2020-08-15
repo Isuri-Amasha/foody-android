@@ -16,6 +16,8 @@
         <activity android:name=".CartItems" />
         <activity android:name=".foodItem" />
         <activity android:name=".foodList" />
+        <activity android:name=".orderMap" />
+        <activity android:name=".orderList_Admin" />
 
         <activity
             android:name=".Home"
