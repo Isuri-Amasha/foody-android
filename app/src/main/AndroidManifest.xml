@@ -10,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        
+        <activity android:name=".FoodList_admin"></activity>
+        <activity android:name=".UpdateFoodItem_Admin" />
+        <activity android:name=".AddFoodItem_Admin" />
 
         <activity android:name=".DeliveryAddress"></activity>
         <activity android:name=".client_order_history" />
