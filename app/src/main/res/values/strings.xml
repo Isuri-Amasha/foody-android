@@ -67,4 +67,21 @@
     <string name="onTheWay">On the Way</string>
     <string name="placed">Order Placed</string>
     <string name="delivered">Delivered</string>
+
+    //Kalana Rathnayake
+    <string name="txtAddItem">Add Item</string>
+    <string name="txtFillMsg">Please Fill All Information.</string>
+    <string name="txtName">Name</string>
+    <string name="txtDes">Description</string>
+    <string name="txtPrice">Price</string>
+    <string name="txtDiscount">Discount</string>
+    <string name="BtnAddPic">Add Picture</string>
+    <string name="BtnSubmit">Submit</string>
+    <string name="txtEditItem">Edit Details</string>
+    <string name="BtnEditPic">Edit Image</string>
+    <string name="txtFoodNoodles">Noodles</string>
+    <string name="txtFoodDescription">Mixed Chicken noodles with special sourse.</string>
+    <string name="txtPriceNoodles">1000 Rs</string>
+    <string name="txtDiscountNoodles">0 Rs</string>
+    <string name="BtnDeleteItem">Delete This Item</string>
 </resources>
