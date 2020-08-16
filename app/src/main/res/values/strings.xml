@@ -67,4 +67,15 @@
     <string name="onTheWay">On the Way</string>
     <string name="placed">Order Placed</string>
     <string name="delivered">Delivered</string>
+    
+    <string name="Add_Catagory">Add Catagory</string>
+    <string name="Edit_Ctagory">Edit Catagory</string>
+    <string name="button3">Upload</string>
+    <string name="addNewCatagory2">catagoryName</string>
+    <string name="addNewCatagory">catagoryName</string>
+    <string name="textView4">Add New Catagory</string>
+    <string name="update_catagory">updateCatagory</string>
+    <string name="delete_catagory2">deleteCatagory</string>
+    <string name="update_name">Main Course</string>
+    <string name="button6">Edit Image</string>
 </resources>
