@@ -10,4 +10,7 @@
 
     <color name = "overlayBackground">#7F333639</color>
     <color name = "overlayActionBar">#0e0d0e</color>
+
+    <color name="WarnColor_RED">#6D0A03</color>
+    <color name="txt_Black">#000000</color>
 </resources>
