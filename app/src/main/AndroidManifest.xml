@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.foody">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,20 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".update_catagory"></activity>
-        <activity android:name=".edit_catagory" />
-        <activity android:name=".catagory_list" />
-        <activity android:name=".home_admin" />
-        <activity android:name=".admin_home" />
-        <activity android:name=".DeliveryAddress" />
+
+        <activity android:name=".DeliveryAddress"></activity>
         <activity android:name=".client_order_history" />
         <activity android:name=".CartItems" />
         <activity android:name=".foodItem" />
         <activity android:name=".foodList" />
+        <activity android:name=".orderMap" />
+        <activity android:name=".orderList_Admin" />
+
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".LogIn" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity">
