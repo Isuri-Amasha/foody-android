@@ -78,7 +78,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
+<!--Payment Methods-->
         <TextView
             android:id="@+id/single_payment_method_number"
             android:layout_width="wrap_content"
