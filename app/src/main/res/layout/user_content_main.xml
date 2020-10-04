@@ -17,10 +17,11 @@
         android:background="@color/textColorWhite"
         android:layout_height="56dp">
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-    <FrameLayout
-        android:id="@+id/user_main_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout>
-</RelativeLayout>
+        <!--retrieving user data-->
+           </com.google.android.material.bottomnavigation.BottomNavigationView>
+           <FrameLayout
+               android:id="@+id/user_main_frame"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+           </FrameLayout>
+       </RelativeLayout>
